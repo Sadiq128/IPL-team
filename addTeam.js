@@ -1,3 +1,4 @@
+
 let localTeam = JSON.parse(localStorage.getItem("teamArray"));
 let localPlayers = JSON.parse(localStorage.getItem("playerArray"));
 
@@ -36,4 +37,5 @@ $("#addteamform").submit(function (e) {
    location.href = `./teams.html?name=${addData.sName}`;
 })
 
+     
      
