@@ -37,4 +37,3 @@ $("#addteamform").submit(function (e) {
 })
 
      
-     
