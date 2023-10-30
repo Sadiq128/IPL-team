@@ -1,9 +1,3 @@
-let urlData = location.href;
-let newUrl = new URL(urlData);
-let playerUrl = newUrl.searchParams.get("name");
-console.log(playerUrl);
-
-// geting data from local storage
 
 teamsDetails = JSON.parse(localStorage.getItem("teamArray"));
 playersDetails = JSON.parse(localStorage.getItem("playerArray"));
