@@ -77,6 +77,9 @@
   padding: 5px 20px;
   margin: 10px;
 }
+
+
+
 .add-button:hover {
   box-shadow: 0px 0px 5px #5243c0, -0.1px -0.1px 10px rgb(165, 161, 161);
   cursor: pointer;
@@ -288,6 +291,16 @@
   width: 23.2%;
   margin: 10px;
 }
+
+@media (max-width: 600px)  {
+
+.minibox{
+  width: 100%;
+}
+
+}
+
+
 .minibox {
   margin-bottom: 60px;
 
