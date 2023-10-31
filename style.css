@@ -288,6 +288,16 @@
   width: 23.2%;
   margin: 10px;
 }
+
+
+@media (max-width: 600px)  {
+
+.minibox{
+  width: 100%;
+}
+
+}
+
 .minibox {
   margin-bottom: 60px;
 
